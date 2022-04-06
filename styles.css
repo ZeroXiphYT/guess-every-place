@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #6bffff;
+}
+
+button{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+}
+
+.dark:not(table){
+    filter: invert(100%);
+}
+
+.dk{
+    background-color: #f00;
+}
